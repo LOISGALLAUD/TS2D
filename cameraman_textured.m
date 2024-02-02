@@ -1,5 +1,6 @@
 %% Loïs GALLAUD I2S promo 2025
 close all
+addpath("images");
 
 %% Afficher l'image
 cameraman = imread("cameraman-texture.tif");

@@ -1,5 +1,6 @@
 %% Loïs GALLAUD I2S promo 2025
 close all
+addpath("images");
 
 %% Filtrage du bruit
 house = double(rgb2gray(imread("house.jpg")));
