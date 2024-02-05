@@ -23,7 +23,7 @@ taille = 128;
 ext = -floor(taille/2) : -floor(taille/2) + taille-1;
 
 %% LECTURE DE L'IMAGE et ROTATION
-I0 = imread('trees.jpg') ;
+I0 = imread('images/trees.jpg') ;
 I0 = rgb2gray(I0) ;
 I0 = double(I0)/255.0 ;
 centreI0 = floor(size(I0)/2) + [1 1] ; % point central
