@@ -52,3 +52,18 @@ On remarque que la corrélation classique donne un pic de corrélation moins rob
 ![corrélation pour rot=30](readme/corr_rot_30.png)
 
 On se rend compte qu'un rotation entraîne une perte de corrélation. Cela est dû au fait que la corrélation est effectuée par un produit terme à terme des deux images. Si les deux images ne sont pas alignées, le produit terme à terme ne sera pas maximal.
+
+## TP4: Détection de contours
+
+## TP5: Tomographie
+
+Objectifs :
+
+- Reconstruction d'une image à partir de ses projections
+- Utilisation de la transformée de Radon
+
+<center>
+    <img src="https://img.tfd.com/mk/T/X2604-T-22.png">
+</center>
+
+![phantom tomography](images/phantom.png)
