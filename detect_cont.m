@@ -44,3 +44,27 @@ Gs = (G > threshold);
 subplot(2, 2, 4);
 imshow(Gs, []);
 title("Filtre Sobel");
+
+%% Laplacien du gaussien
+sigma = 6e-3;
+cameraman = imread("cameraman.tif");
+lena = imread("lena256.tif");
+cont_cameraman = edge(cameraman, "log", sigma);
+cont_lena = edge(lena, "log", sigma);
+
+figure;
+subplot(2, 2, 1);
+imshow(cameraman, []);
+title("Image originale");
+
+subplot(2, 2, 2);
+imshow(cont_cameraman, []);
+title("Contours LoG")
+
+subplot(2, 2, 3);
+imshow(lena, []);
+title("Image originale");
+
+subplot(2, 2, 4);
+imshow(cont_lena, []);
+title("Contours LoG")

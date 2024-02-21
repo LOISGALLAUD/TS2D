@@ -55,6 +55,15 @@ On se rend compte qu'un rotation entraîne une perte de corrélation. Cela est d
 
 ## TP4: Détection de contours
 
+Objectifs :
+
+- Détection de contours par filtre de Sobel, de Prewitt et de Roberts
+- Détection de contours par laplacien du gaussien
+
+![frog contourq](readme/frog.png)
+
+![log](readme/log.png)
+
 ## TP5: Tomographie
 
 Objectifs :
@@ -66,4 +75,4 @@ Objectifs :
     <img src="https://img.tfd.com/mk/T/X2604-T-22.png">
 </center>
 
-![phantom tomography](images/phantom.png)
+![phantom tomography](readme/phantom.png)
